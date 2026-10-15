@@ -214,3 +214,34 @@ body[data-page="company"] .sea-vignette{z-index:3}
 body[data-page="company"] #company .intro-grid{position:relative;z-index:4}
 body[data-page="company"] #company-wave-scene svg{position:relative;z-index:3}
 @media(prefers-reduced-motion:reduce){.ocean-transfer,.ocean-morph-layer{display:none!important}.ocean-hero:after{content:'';position:absolute;left:0;right:0;bottom:0;height:140px;z-index:3;pointer-events:none;background:linear-gradient(transparent,#f7fafc)}}
+
+/* Digital tools remain concise. The assembled vessel carries the visual story. */
+.digitalization-kicker{font:11px/1.5 Arial,sans-serif;letter-spacing:.04em;color:#526f86;margin-bottom:24px}
+.digitalization-section .section-intro{grid-template-columns:1.2fr 1fr;align-items:end}
+.digitalization-section .section-intro>p{max-width:390px}
+.digitalization-services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;margin:40px 0 38px}
+.digitalization-services article{border-top:1px solid #aec5d5;padding-top:18px;scroll-margin-top:115px}
+.digitalization-services h3{font:23px/1.2 Georgia,serif;color:#315773;margin:0 0 13px;letter-spacing:-.025em}
+.digitalization-services p{font:12px/1.7 Arial,sans-serif;color:#4b687d;max-width:30ch;margin:0}
+.ship-assembly-scene{background:radial-gradient(ellipse at 70% 30%,#f1edf8,#edf5fa 72%);overflow:hidden}
+.ship-assembly-scene svg{display:block;width:100%;height:clamp(360px,60svh,600px);padding:0}
+.digitalization-conclusion{font:19px/1.5 Georgia,serif;color:#315773;margin:30px 0 0;max-width:47ch}
+@media(max-width:760px){.digitalization-kicker{font-size:10px;margin-bottom:20px}.digitalization-services{grid-template-columns:1fr;gap:22px;margin:30px 0}.digitalization-services h3{font-size:22px;margin-bottom:9px}.digitalization-services p{font-size:12px;max-width:42ch}.ship-assembly-scene svg{height:clamp(300px,46svh,440px);padding:0}.digitalization-conclusion{font-size:18px;margin-top:25px}.digitalization-section{padding-bottom:84px}}
+
+/* The supplied vessel reference assembles across a longer, unpinned scroll span. */
+.ship-assembly-scene svg{height:clamp(580px,96svh,960px);padding:0}
+.research-profile{grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:34px}
+.research-notebook{max-width:610px;transform:rotate(2deg)}
+.profile-section{padding-top:90px;padding-bottom:90px}
+@media(max-width:1000px){.research-profile{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:22px}}
+@media(max-width:760px){.ship-assembly-scene svg{height:82svh;min-height:520px;max-height:820px}.research-profile{grid-template-columns:1fr;gap:30px}.research-notebook{width:100%;max-width:540px;margin-right:0;transform:rotate(1deg)}.profile-section{padding-top:65px;padding-bottom:80px}}
+
+/* Compact frame, scattered panels and a suggested water surface. */
+.ship-assembly-scene svg{height:clamp(500px,76svh,760px);min-height:0;max-height:none}
+.research-notebook{max-width:520px;margin-right:-18px}
+@media(max-width:760px){.ship-assembly-scene svg{height:66svh;min-height:430px;max-height:680px}.research-notebook{width:94%;max-width:460px;margin-right:-8px}}
+
+.profile-portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;opacity:1;display:block}
+
+.ship-assembly-scene canvas{display:block;width:100%;height:clamp(500px,76svh,760px);padding:0}
+@media(max-width:760px){.ship-assembly-scene canvas{height:66svh;min-height:430px;max-height:680px}}
